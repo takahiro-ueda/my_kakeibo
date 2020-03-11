@@ -48,7 +48,7 @@ class FixedcostValuesController < ApplicationController
   end
 
   def destroy
-    @fixedcost_value = Fixedcostvalue.find(params[:id])
+    @fixedcost_value = FixedcostValue.find(params[:id])
     @fixedcost_value.destroy
     redirect_to :fixedcost_values, notice: "データを削除しました"
   end
