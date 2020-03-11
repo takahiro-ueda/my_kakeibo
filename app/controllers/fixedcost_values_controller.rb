@@ -2,7 +2,7 @@ class FixedcostValuesController < ApplicationController
 
   def index
     @fixedcosts = Fixedcost.order(created_at: :asc)
-    @fixedcost_value = FixedcostValue.order("year_month asc")
+    @fixedcost_values = FixedcostValue.order(year_month: :asc)
   end
 
   def show

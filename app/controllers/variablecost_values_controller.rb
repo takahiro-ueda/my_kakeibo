@@ -2,7 +2,7 @@ class VariablecostValuesController < ApplicationController
 
   def index
     @variablecosts = Variablecost.order(created_at: :asc)
-    @variablecost_value = VariablecostValue.order("year_month asc")
+    @variablecost_values = VariablecostValue.order(year_month: :asc)
   end
 
   def show
