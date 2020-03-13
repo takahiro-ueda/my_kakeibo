@@ -11,6 +11,11 @@
   </head>
 
   <body>
+
+    <% flash.each do |key, value| %>
+      <%= content_tag(:div, value, class: "#{key}") %>
+    <% end %>
+
     <header class="header">
       <div class="header__right">
         <% if user_signed_in? %>
@@ -27,9 +32,6 @@
       </div>
     </header>
 
-    <% if flash.notice %>
-      <%= flash.notice %>
-    <% end %>
     <div class="contents">
       <%= yield %>
     </div>
