@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   # get 'top/index'
   root "top#index"
   post "income_values/new(/:name)" => "income_values#new"
