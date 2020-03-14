@@ -1,0 +1,41 @@
+* { 
+  margin: 0px; 
+  padding: 0px; 
+}
+
+.header {
+  height: 100px;
+  width: 100vw;
+  background-color: lightgreen;
+  color: white;
+  display: flex;
+  padding: 0 20px;
+  align-items: center;
+  .icons {
+    font-size: 20px;
+    display:flex;
+    justify-content: space-between;
+    font-weight: bold;
+    line-height: 100px;
+    .title {
+    }
+    .icon {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100px;
+      width: 400px;
+      font-size: 20px;
+      line-height: 100px;
+      text-align: center;
+      display:flex;
+      margin: auto;
+      a {
+        color: #ffffff;
+        text-decoration: none;
+        margin-right: 10px;
+        margin-left: 30px;
+      }
+    }
+  }
+}
