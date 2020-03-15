@@ -1,10 +1,11 @@
+<div class="content__center">
 <%= @page_title = "収入科目一覧" %>
 <h2><%= @page_title %></h2>
 
 <%= link_to "収入科目の新規登録", :new_income %>
 
 <% if @incomes.present? %>
-<table>
+<table >
   <thead>
     <tr>
       <th>科目名</th>
@@ -24,6 +25,8 @@
       </tr>
     <% end %>
   </tbody>
+</table>
 <% else %>
   <p>登録されている収入科目がありません</p>
 <% end %>
+</div>

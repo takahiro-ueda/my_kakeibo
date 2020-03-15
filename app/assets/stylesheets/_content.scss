@@ -1,6 +1,10 @@
 .contents {
-  background-image: url("https://backgrounds-free.com/material/502-free-background-images.jpg");
   .side {
+    background-image: url("https://pbs.twimg.com/media/BYuQxk0CUAAT9Lq.png");
+    height: 720px;
+    width: 100vw;
+    background-size: cover;
+    box-sizing: border-box;
     .side__left {
       counter-reset:list;
       list-style-type:none;
@@ -11,6 +15,10 @@
       -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.2) inset,0 0 4px rgba(0, 0, 0, 0.2) ;
       -moz-box-shadow: 0 0 40px rgba(0, 0, 0, 0.2) inset,0 0 4px rgba(0, 0, 0, 0.2) ;
       box-shadow: 0 0 40px rgba(0, 0, 0, 0.2) inset,0 0 4px rgba(0, 0, 0, 0.2) ;
+      a {
+        color:#333;
+        text-decoration: none;
+      }
       :after{
         // content: "\f6be";  /* 右下の文字 */
         position: absolute;
@@ -24,9 +32,8 @@
         padding: 7px 5px 7px 50px;
         margin: 7px 0 10px 0px;
         font-weight: bold;
-        font-size:20px;
+        font-size:14px;
         border-bottom:dashed 1px #ccc;
-        color:#333;
       }
       li:first-child{
         margin-top:0;
@@ -58,6 +65,10 @@
       -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.2) inset,0 0 4px rgba(0, 0, 0, 0.2) ;
       -moz-box-shadow: 0 0 40px rgba(0, 0, 0, 0.2) inset,0 0 4px rgba(0, 0, 0, 0.2) ;
       box-shadow: 0 0 40px rgba(0, 0, 0, 0.2) inset,0 0 4px rgba(0, 0, 0, 0.2) ;
+      a {
+        color:#333;
+        text-decoration: none;
+      }
       :after{
         // content:"list-sample";  /* 右下の文字 */
         position: absolute;
@@ -71,7 +82,7 @@
         padding: 7px 5px 7px 50px;
         margin: 7px 0 10px 0px;
         font-weight: bold;
-        font-size:20px;
+        font-size:14px;
         border-bottom:dashed 1px #ccc;
         color:#333;
       }
@@ -105,6 +116,10 @@
       -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.2) inset,0 0 4px rgba(0, 0, 0, 0.2) ;
       -moz-box-shadow: 0 0 40px rgba(0, 0, 0, 0.2) inset,0 0 4px rgba(0, 0, 0, 0.2) ;
       box-shadow: 0 0 40px rgba(0, 0, 0, 0.2) inset,0 0 4px rgba(0, 0, 0, 0.2) ;
+      a {
+        color:#333;
+        text-decoration: none;
+      }
       :after{
         // content:"list-sample";  /* 右下の文字 */
         position: absolute;
@@ -118,7 +133,7 @@
         padding: 7px 5px 7px 50px;
         margin: 7px 0 10px 0px;
         font-weight: bold;
-        font-size:20px;
+        font-size:14px;
         border-bottom:dashed 1px #ccc;
         color:#333;
       }

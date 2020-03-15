@@ -18,7 +18,7 @@ class VariablecostValuesController < ApplicationController
   end
 
   def edit
-    @variablecost_value = Variablecost.find(params[:id])
+    @variablecost_value = VariablecostValue.find(params[:id])
     @variablecost = Variablecost.find(@variablecost_value.variablecost_id)
   end
 
