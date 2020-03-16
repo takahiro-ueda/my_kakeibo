@@ -6,7 +6,7 @@
 .header {
   height: 100px;
   width: 100vw;
-  background-color: lightgreen;
+  background-color: #FFE4C4;
   color: black;
   display: flex;
   align-items: center;
@@ -18,7 +18,7 @@
     line-height: 100px;
     padding: 0 20px;
     .title {
-      font-family: Comic Sans MS;
+      font-family: 'Amatic SC', cursive;
     }
     .icon {
       position: absolute;
