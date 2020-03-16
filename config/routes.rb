@@ -21,6 +21,6 @@ Rails.application.routes.draw do
   resources :fixedcost_values
   resources :variablecost_values
   resources :users, only: [:edit, :update]
-  resources :users, only: :show
+  resources :users, :only => [:show]
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
