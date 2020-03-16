@@ -68,27 +68,29 @@
       position: relative;
       .field {
         margin-bottom: 10px;
-      }
-      .field-label {
-        padding: 10px 0;
-        letter-spacing: 1px;
-        font-size: 14px;
-        font-weight: 200;
-        i {
-          font-size: 11px;
-          width: 429px;
-          height: 48px;
-          padding: 10px;
-        }
-      }
-  
-      .field__list  {
-        input {
-          width: 100%;
-          padding: 10px;
+        .field-label {
+          padding: 10px 0;
           letter-spacing: 1px;
+          font-size: 14px;
+          font-weight: 200;
+          i {
+            font-size: 11px;
+            width: 429px;
+            height: 48px;
+            padding: 10px;
+          }
+        }
+    
+        .field__list  {
+          input {
+            width: 100%;
+            padding: 10px;
+            letter-spacing: 1px;
+            font-size: 20px;
+          }
         }
       }
+      
     }
   
     input[type='submit'] {
