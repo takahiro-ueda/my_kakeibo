@@ -1,3 +1,4 @@
+<div class="content__fix">
 <h2>変動費科目 データ修正 </h2>
   <%= form_for @variablecost_value do |form| %>
   <table>
@@ -10,8 +11,7 @@
 
     <tr>
       <td><%= form.date_select :year_month, start_year: 2010, end_year: Time.current.year,
-              use_month_numbers: true, discard_day: true %>
-      </td>
+              use_month_numbers: true, discard_day: true %></td>
       <th><%= @variablecost.name %></th>
       <td><%= form.text_field :value %></td>
       <td><%= form.text_field :description %></td>
@@ -19,3 +19,4 @@
   </table>
   <div><%= form.submit %></div>
   <% end %>
+</div>
