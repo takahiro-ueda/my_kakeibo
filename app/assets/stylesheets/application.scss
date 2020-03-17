@@ -1,3 +1,9 @@
+/*
+ *= require simple_calendar
+ *= require_tree .
+ *= require_self
+ */
+
 @import "config/colors";
 @import "font-awesome";
 @import "font-awesome-sprockets";
@@ -8,3 +14,4 @@
 @import "incomes";
 @import "income_values";
 @import "balance_confirm"
+
