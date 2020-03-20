@@ -18,18 +18,19 @@
         <td><%= meeting.start_time %></td>
         <td><%= link_to 'Show', meeting %></td>
         <td><%= link_to 'Edit', edit_meeting_path(meeting) %></td>
-        <td><%= link_to 'Destroy', meeting, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Destroy', meeting, method: :delete, data: { confirm: '本当に削除してもよろしいですか？' } %></td>
       </tr>
     <% end %>
   </tbody>
 </table>
 
 <br>
-
+<div class="calendar__new">
 <%= link_to 'New Meeting', new_meeting_path %>
+</div>
 
 <%= month_calendar events: @meetings do |date, meetings| %>
-  <%= date %>
+  <%= date.day %>
 
   <% meetings.each do |meeting| %>
     <div>
