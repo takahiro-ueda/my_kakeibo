@@ -1,24 +1,87 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## incomesテーブル
 
-Things you may want to cover:
+|Column|Type|Options|
+|------|----|-------|
+|name|string|null: false|
+|description|string
+|timestamps
 
-* Ruby version
+### Association
+- has_many :income_values, dependent: :destroy
+ 
 
-* System dependencies
+ ## fixedcostsテーブル
 
-* Configuration
+|Column|Type|Options|
+|------|----|-------|
+|name|string|null: false|
+|description|string
+|timestamps
 
-* Database creation
+### Association
+- has_many :fixedcost_values, dependent: :destroy
 
-* Database initialization
 
-* How to run the test suite
+## variablecostsテーブル
 
-* Services (job queues, cache servers, search engines, etc.)
+|Column|Type|Options|
+|------|----|-------|
+|name|string|null: false|
+|description|string
+|timestamps
 
-* Deployment instructions
+### Association
+- has_many :variablecost_values, dependent: :destroy
 
-* ...
+
+## income_valuesテーブル
+
+|Column|Type|Options|
+|------|----|-------|
+|income_id|integer|null: false|
+|year_month|date
+|value|integer
+|description|string
+|timestamps
+
+## fixedcost_valuesテーブル
+
+|Column|Type|Options|
+|------|----|-------|
+|fixedcost_id|integer|null: false|
+|year_month|date
+|value|integer
+|description|string
+|timestamps
+
+## variablecost_valuesテーブル
+
+|Column|Type|Options|
+|------|----|-------|
+|variablecost_id|integer|null: false|
+|year_month|date
+|value|integer
+|description|string
+|timestamps
+
+## usersテーブル
+
+|Column|Type|Options|
+|------|----|-------|
+|name|string|null: false, add_index: true|
+|email|string|null: false, unique: true|
+
+### Association
+
+
+## meetingsテーブル
+
+|Column|Type|Options|
+|------|----|-------|
+|name|string|
+|start_time|datetime|
+|timestamps
+
+### Association
