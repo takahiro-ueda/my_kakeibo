@@ -1,8 +1,9 @@
 .content {
   &__user {
     width: 980px;
+    height: 400px;
     margin: 60px auto;
-    padding: 60px;
+    padding: 30px;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -36,7 +37,27 @@
         margin-bottom: 20px;
         font-size: 14px;
         font-weight: 200;
-        
+      }
+      input[type='submit'] {
+        float: left;
+        margin-top: 20px;
+        color: #fff;
+        background-color: #38aef0;
+        height: 50px;
+        width: 250px;
+        font-size: 20px;
+      }
+      .content__user--back {
+        margin-top: 100px;
+        background-color: #38aef0;
+        height: 50px;
+        width: 125px;
+        font-size: 20px;
+        text-align: center;
+        line-height: 50px;
+        a {
+          color: white;
+        }
       }
     }
   
@@ -46,38 +67,29 @@
       position: relative;
       .field {
         margin-bottom: 10px;
-      }
-      .field-label {
-        padding: 10px 0;
-        letter-spacing: 1px;
-        font-size: 14px;
-        font-weight: 200;
-        i {
-          font-size: 11px;
-          width: 429px;
-          height: 48px;
-          padding: 10px;
-        }
-      }
-  
-      .field__list  {
-        input {
-          width: 100%;
-          padding: 10px;
+        .field-label {
+          padding: 10px 0;
           letter-spacing: 1px;
+          font-size: 14px;
+          font-weight: 200;
+          i {
+            font-size: 11px;
+            width: 429px;
+            height: 48px;
+            padding: 10px;
+          }
+        }
+    
+        .field__list  {
+          input {
+            width: 100%;
+            padding: 10px;
+            letter-spacing: 1px;
+            font-size: 20px;
+          }
         }
       }
-    }
-  
-    .btn {
-      display: inline-block;
-      height: 50px;
-      padding: 0 30px;
-      line-height: 50px;
-      letter-spacing: 1px;
-      text-align: center;
-      border: none;
-      border-radius: 2px;
+      
     }
   
     input[type='submit'] {

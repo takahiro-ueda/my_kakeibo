@@ -14,11 +14,12 @@
     
     <div class="header">
       <div class="icons">
-      <p class="title">Balance Sheet</p>
+          <%= link_to "Balance Sheet", '/', class: "title" %>
         <% if user_signed_in? %>
           <div class="icon">
+            <%= link_to "カレンダー", meetings_path, class: "icon__calendar" %>
+            <%= link_to "マイページ", edit_user_registration_path, class: "icon__home" %>
             <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
-            <%= link_to "トップページ", '/', class: "icon__home" %>
           </div>
         <% else %>
           <div class="icon">

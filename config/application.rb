@@ -8,6 +8,8 @@ Bundler.require(*Rails.groups)
 
 module MyKakeibo
   class Application < Rails::Application
+    config.time_zone  = 'Tokyo'
+    config.beginning_of_week = :sunday
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.2
 
@@ -17,8 +19,8 @@ module MyKakeibo
     # the framework and any gems in your application.
 
     config.action_controller.permit_all_parameters = true
-    class Application < Rails::Application
-      config.i18n.default_locale = :ja
-    end
+    
+    config.i18n.default_locale = :ja
+    
   end
 end

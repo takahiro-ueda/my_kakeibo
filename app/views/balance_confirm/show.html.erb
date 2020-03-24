@@ -91,14 +91,17 @@
     <tbody>
       <tr>
         <td><b>収支差</b></td>
-        <td style="text-align: right"><b><%= @balance_difference %>円</b></td>
+        <td style="text-align: right"><b><%= @balance_difference %> 円</b></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-<b>収支差:<%= @balance_difference %> 円</b>
+<b>収支差<%= @balance_difference %> 円</b>
 
 <% else %>
   <p>登録されている変動費がありません</p>
 <% end %>
+<div class="content__user--back">
+  <%= link_to "戻る", :back %>
+</div>
 </div>

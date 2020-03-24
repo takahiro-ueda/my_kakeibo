@@ -22,5 +22,31 @@
       color: black;
       text-decoration: none;
     }
+    .content__user--back {
+      margin-top: 100px;
+      background-color: #38aef0;
+      height: 50px;
+      width: 125px;
+      font-size: 20px;
+      text-align: center;
+      line-height: 50px;
+      a {
+        color: white;
+      }
+    }
+  }
+  .content__user--backend {
+    background-color: #38aef0;
+    height: 25px;
+    width: 100px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    float: right;
+    margin-right: 10px;
+    a {
+      color: white;
+      text-decoration: none;
+    }
   }
 }
