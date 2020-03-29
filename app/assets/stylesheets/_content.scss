@@ -1,161 +1,70 @@
 .contents {
-  .side {
+  .side__content {
     background-image: url("https://pbs.twimg.com/media/BYuQxk0CUAAT9Lq.png");
     height: 720px;
     width: 100vw;
     background-size: cover;
     box-sizing: border-box;
-    font-size: 20px;
-    .side__left {
-      counter-reset:list;
-      list-style-type:none;
-      position:relative;
-      font: 14px/1.6 'Mv Boli', 'arial narrow', sans-serif;
-      padding: 1.2em;
-      background:#F2EFE7;
-      -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.2) inset,0 0 4px rgba(0, 0, 0, 0.2) ;
-      -moz-box-shadow: 0 0 40px rgba(0, 0, 0, 0.2) inset,0 0 4px rgba(0, 0, 0, 0.2) ;
-      box-shadow: 0 0 40px rgba(0, 0, 0, 0.2) inset,0 0 4px rgba(0, 0, 0, 0.2) ;
-      a {
-        color:#333;
-        text-decoration: none;
+    .side {
+      width: 200px;
+      font-size: 25px;
+      background-color: #BBBBBB	;
+      &__name {
+        text-align: center;
+        *zoom: 1;
+        list-style-type: none;
+        padding: 0;
       }
-      :after{
-        // content: "\f6be";  /* 右下の文字 */
-        position: absolute;
-        bottom: 8px;
-        right: 1.2em;
-        font-size:12px;
-        color:#bbb;
-      }
-      li{
+        
+      &__left, &__center, &__right {
+        counter-reset:list;
+        list-style-type:none;
         position:relative;
-        padding: 7px 5px 7px 50px;
-        margin: 7px 0 10px 0px;
-        font-weight: bold;
-        font-size:14px;
-        border-bottom:dashed 1px #ccc;
-      }
-      li:first-child{
-        margin-top:0;
-      }
-      li:last-child{
-        margin-bottom:20px;
-      }
-      li:before{
-        counter-increment: list;
-        content: counter(list) ",";
-        position: absolute;
-        left: 15px;
-        font-size:1.2em;
-         top: 50%;
-        -moz-transform: translateY(-50%);
-        -webkit-transform: translateY(-50%);
-        -o-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-    &__center {
-      counter-reset:list;
-      list-style-type:none;
-      position:relative;
-      font: 14px/1.6 'Mv Boli', 'arial narrow', sans-serif;
-      padding: 1.2em;
-      background:#F2EFE7;
-      -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.2) inset,0 0 4px rgba(0, 0, 0, 0.2) ;
-      -moz-box-shadow: 0 0 40px rgba(0, 0, 0, 0.2) inset,0 0 4px rgba(0, 0, 0, 0.2) ;
-      box-shadow: 0 0 40px rgba(0, 0, 0, 0.2) inset,0 0 4px rgba(0, 0, 0, 0.2) ;
-      a {
-        color:#333;
-        text-decoration: none;
-      }
-      :after{
-        // content:"list-sample";  /* 右下の文字 */
-        position: absolute;
-        bottom: 8px;
-        right: 1.2em;
-        font-size:12px;
-        color:#bbb;
-      }
-      li{
-        position:relative;
-        padding: 7px 5px 7px 50px;
-        margin: 7px 0 10px 0px;
-        font-weight: bold;
-        font-size:14px;
-        border-bottom:dashed 1px #ccc;
-        color:#333;
-      }
-      li:first-child{
-        margin-top:0;
-      }
-      li:last-child{
-        margin-bottom:20px;
-      }
-      li:before{
-        counter-increment: list;
-        content: counter(list) ",";
-        position: absolute;
-        left: 15px;
-        font-size:1.2em;
-         top: 50%;
-        -moz-transform: translateY(-50%);
-        -webkit-transform: translateY(-50%);
-        -o-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-    &__right {
-      counter-reset:list;
-      list-style-type:none;
-      position:relative;
-      font: 14px/1.6 'Mv Boli', 'arial narrow', sans-serif;
-      padding: 1.2em;
-      background:#F2EFE7;
-      -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.2) inset,0 0 4px rgba(0, 0, 0, 0.2) ;
-      -moz-box-shadow: 0 0 40px rgba(0, 0, 0, 0.2) inset,0 0 4px rgba(0, 0, 0, 0.2) ;
-      box-shadow: 0 0 40px rgba(0, 0, 0, 0.2) inset,0 0 4px rgba(0, 0, 0, 0.2) ;
-      a {
-        color:#333;
-        text-decoration: none;
-      }
-      :after{
-        // content:"list-sample";  /* 右下の文字 */
-        position: absolute;
-        bottom: 8px;
-        right: 1.2em;
-        font-size:12px;
-        color:#bbb;
-      }
-      li{
-        position:relative;
-        padding: 7px 5px 7px 50px;
-        margin: 7px 0 10px 0px;
-        font-weight: bold;
-        font-size:14px;
-        border-bottom:dashed 1px #ccc;
-        color:#333;
-      }
-      li:first-child{
-        margin-top:0;
-      }
-      li:last-child{
-        margin-bottom:20px;
-      }
-      li:before{
-        counter-increment: list;
-        content: counter(list) ",";
-        position: absolute;
-        left: 15px;
-        font-size:1.2em;
-         top: 50%;
-        -moz-transform: translateY(-50%);
-        -webkit-transform: translateY(-50%);
-        -o-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
+        font: 14px/1.6 'Mv Boli', 'arial narrow', sans-serif;
+        padding: 1.2em;
+        background:#F2EFE7;
+        -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.2) inset,0 0 4px rgba(0, 0, 0, 0.2) ;
+        -moz-box-shadow: 0 0 40px rgba(0, 0, 0, 0.2) inset,0 0 4px rgba(0, 0, 0, 0.2) ;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.2) inset,0 0 4px rgba(0, 0, 0, 0.2) ;
+        a {
+          color:#333;
+          text-decoration: none;
+        }
+        :after{
+          // content: "\f6be";  /* 右下の文字 */
+          position: absolute;
+          bottom: 8px;
+          right: 1.2em;
+          font-size:25px;
+          color:#bbb;
+        }
+        li{
+          position:relative;
+          padding: 7px 5px 7px 50px;
+          margin: 7px 0 10px 0px;
+          font-weight: bold;
+          font-size:14px;
+          border-bottom:dashed 1px #ccc;
+        }
+        li:first-child{
+          margin-top:0;
+        }
+        li:last-child{
+          margin-bottom:20px;
+        }
+        li:before{
+          counter-increment: list;
+          content: counter(list) ",";
+          position: absolute;
+          left: 15px;
+          font-size:1.2em;
+          top: 50%;
+          -moz-transform: translateY(-50%);
+          -webkit-transform: translateY(-50%);
+          -o-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+        }
       }
     }
   }
