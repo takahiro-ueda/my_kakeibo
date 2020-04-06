@@ -1,13 +1,21 @@
 .notifications {
+  width: 100%;
+  position: relative;
   .notice {
-    background-color: light_blue;
+    background-color: #93FFAB;
     color: white;
     text-align: center;
+    height: 30px;
+    width: 100%;
+    position: absolute;
   }
 
   .alert {
-    background-color: alert_orange;
+    background-color: #DD0000;
     color: white;
     text-align: center;
+    height: 30px;
+    width: 100%;
+    position: absolute;
   }
 }
