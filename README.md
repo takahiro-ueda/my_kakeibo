@@ -10,7 +10,8 @@
 
 #開発環境
 
-言語：ruby, ruby on rails, JavaScript, JQuery,  
+言語：HTML・Ruby・Ruby on Rails・JavaScript・jQuery・SQL・Git・ GitHub・SCSS
+ 
 
 #使い方
 
