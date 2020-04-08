@@ -1,0 +1,73 @@
+.icons {
+  height: 20px;
+  font-size: 20px;
+  display:flex;
+  justify-content: space-between;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 0 20px;
+  a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+  }
+  a::after {
+    position: absolute;
+    bottom: -8px; 
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: lightgreen;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+  
+  }
+  a:hover::after {
+    bottom: -4px;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .sub_title {
+    font-family: 'Caveat', cursive;
+    color: black;
+    text-decoration: none;
+    top: 40px;
+    font-size: 25px;
+  }
+  .icon {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    font-size: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    display:flex;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+    color: transparent;
+    letter-spacing: 0.1em;
+    text-shadow:
+      0 0 2px rgba(204, 208, 212,0.9),
+      0 15px 25px rgba(0, 0, 0, 0.3),
+      0 -2px 3px rgba(0, 0, 0, 0.1),
+      0 -5px 10px rgba(255, 255, 255, 0.5),
+      0 5px 10px rgba(0, 0, 0, 0.3),
+      0 3px 4px rgba(255, 255, 255, 0.2),
+      0 0 20px rgba(255, 255, 255, 0.45);
+    a {
+      color: black;
+      margin-right: 30px;
+      text-decoration: none;
+      transition: 1.0s ;
+    }
+    a:hover {
+      color: lightgreen ;
+    }
+  }
+}

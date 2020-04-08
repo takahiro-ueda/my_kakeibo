@@ -1,3 +1,4 @@
+<%= render 'layouts/header' %>
 <p id="notice"><%= notice %></p>
 
 <h1>Meetings</h1>
@@ -12,7 +13,7 @@
   </thead>
 
   <tbody>
-    <% @meetings.each do |meeting| %>
+    <% @meetings.first(3).each do |meeting| %>
       <tr>
         <td><%= meeting.name %></td>
         <td><%= meeting.start_time %></td>
@@ -26,7 +27,7 @@
 
 <br>
 <div class="calendar__new">
-<%= link_to 'New Meeting', new_meeting_path %>
+  <%= link_to 'New Meeting', new_meeting_path %>
 </div>
 
 <%= month_calendar events: @meetings do |date, meetings| %>

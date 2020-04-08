@@ -11,7 +11,19 @@
 // about supported directives.
 //
 //= require Chart.min
+//= require jquery
 //= require rails-ujs
 //= require activestorage
-//= require turbolinks
 //= require_tree .
+
+
+$(function() {
+  $('.content__image').slick({
+    arrows: false,
+    autoplay: true,
+    speed: 5000,
+    cssEase: "linear",
+    pauseOnHover: true,
+    
+  });
+});

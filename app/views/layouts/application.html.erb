@@ -7,28 +7,14 @@
 
     <%= Gon::Base.render_data %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   </head>
 
   <body>
-    
-    <div class="header">
-      <div class="icons">
-          <%= link_to "Balance Sheet", '/', class: "title" %>
-        <% if user_signed_in? %>
-          <div class="icon">
-            <%= link_to "カレンダー", meetings_path, class: "icon__calendar" %>
-            <%= link_to "マイページ", edit_user_registration_path, class: "icon__home" %>
-            <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
-          </div>
-        <% else %>
-          <div class="icon">
-            <%= link_to "ログイン", new_user_session_path, class: 'icon__in' %>
-            <%= link_to "新規登録", new_user_registration_path, class: 'icon__new' %>
-          </div>
-        <% end %>
-      </div>
-    </div>
     <div class="content">
       <%= render 'layouts/notifications' %>
       <%= yield %>

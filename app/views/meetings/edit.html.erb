@@ -1,6 +1,11 @@
+<%= render 'layouts/header' %>
 <h1>Editing Meeting</h1>
 
 <%= render 'form', meeting: @meeting %>
 
 <%= link_to 'Show', @meeting %> |
 <%= link_to 'Back', meetings_path %>
+
+<div class="calendar__image">
+  <%= image_tag '/publicdomainq-0033961jit.jpg', class: "meeting__image" %> 
+</div>
