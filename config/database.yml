@@ -52,3 +52,5 @@ production:
   database: my_kakeibo_production
   username: my_kakeibo
   password: <%= ENV['MY_KAKEIBO_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: unicode
