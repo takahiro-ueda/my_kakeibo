@@ -49,8 +49,14 @@ test:
 #
 production:
   <<: *default
+  # database: my_kakeibo_production
+  # username: my_kakeibo
+  # password: <%= ENV['MY_KAKEIBO_DATABASE_PASSWORD'] %>
+  # adapter: postgresql
+  # encoding: unicode
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
   database: my_kakeibo_production
   username: my_kakeibo
   password: <%= ENV['MY_KAKEIBO_DATABASE_PASSWORD'] %>
-  adapter: postgresql
-  encoding: unicode
