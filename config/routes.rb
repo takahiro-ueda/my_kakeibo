@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   resources :meetings
   devise_for :users
-  # get 'top/index'
+  
   root "top#index"
   post "income_values/new(/:name)" => "income_values#new"
   post "fixedcost_values/new(/:name)" => "fixedcost_values#new"
