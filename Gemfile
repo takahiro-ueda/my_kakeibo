@@ -79,7 +79,3 @@ gem "font-awesome-sass"
 gem "simple_calendar", "~> 2.0"
 gem 'jquery-rails'
 gem 'jquery-turbolinks'
-
-group :production do
-       gem 'pg', '~>0.18.4' 
-end　
