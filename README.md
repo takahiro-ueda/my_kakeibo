@@ -34,9 +34,9 @@
 
  #収支確認<br/>
  月次一覧表示<br/>
-
+![月次一覧](https://i.gyazo.com/7e2d2d082da1575b0cbae8ca8b293e0f.png)
  年間グラフ表示<br/>
-
+![年間グラフ](https://i.gyazo.com/7e2d2d082da1575b0cbae8ca8b293e0f.png)
 手順：ユーザー登録orログイン→カレンダー → New Meeting → 予定登録
 
 ## incomesテーブル
