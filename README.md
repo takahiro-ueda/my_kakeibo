@@ -33,8 +33,8 @@
 月次一覧表示<br/>
 ![月次一覧](https://i.gyazo.com/d7e3e44819610a12c7450eeb7077aa58.jpg)
 年間グラフ表示<br/>
-![年間グラフ]()
-
+![年間グラフ](https://i.gyazo.com/8032615fe4dfdad168e8217a0140c8c4.png)
+![年間グラフ](https://i.gyazo.com/a7e897f654a27f9af5c1fc90703d59e5.png)
 
 # カレンダーの手順
 手順：ユーザー登録orログイン→カレンダー → New Meeting → 予定登録
