@@ -41,7 +41,7 @@
 カレンダー<br/>
 ![カレンダー](https://i.gyazo.com/fa5d1280215bc247650c33ccdff79e05.png)
 
-予定記入＜<br/>
+予定記入<br/>
 ![予定](https://i.gyazo.com/25ddfff022b2270e3f27ee64ba33eaa4.png)
 
 カレンダー更新後<br/>
