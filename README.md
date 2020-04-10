@@ -36,7 +36,9 @@
  月次一覧表示<br/>
 ![月次一覧](https://i.gyazo.com/d7e3e44819610a12c7450eeb7077aa58.jpg)
  年間グラフ表示<br/>
-![年間グラフ](FireShot Capture 003 - MyKakeibo - localhost.jpg)
+![年間グラフ](https://i.gyazo.com/dcc3d225b41440bc8c33b1c2d85e26c4.mp4)
+
+
 手順：ユーザー登録orログイン→カレンダー → New Meeting → 予定登録
 
 ## incomesテーブル
