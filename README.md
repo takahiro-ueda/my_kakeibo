@@ -44,6 +44,9 @@
 予定記入＜<br/>
 ![予定](https://i.gyazo.com/25ddfff022b2270e3f27ee64ba33eaa4.png)
 
+カレンダー更新後<br/>
+![カレンダー更新後](https://i.gyazo.com/645ed0fbebd5a811898cb9d69a335f85.png)
+
 ## incomesテーブル
 
 |Column|Type|Options|
