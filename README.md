@@ -16,7 +16,7 @@
 
 ユーザー登録、ログイン（ユーザー登録されていないとアプリを使えないようになっている）<br/>
 #（新規登録画面）<br/>
-
+![新規登録画面](https://i.gyazo.com/3d67f0cc0ecc46227f2dc95bdbea6042.jpg)
 
 #（ログイン画面）<br/>
 ![ログイン画面](https://i.gyazo.com/6d09caf6e690e3f4a48e7f58f65f36c4.jpg)
