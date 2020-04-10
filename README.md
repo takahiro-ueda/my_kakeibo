@@ -38,7 +38,11 @@
 
 # カレンダーの手順
 手順：ユーザー登録orログイン→カレンダー → New Meeting → 予定登録
-![月次一覧](https://i.gyazo.com/fa5d1280215bc247650c33ccdff79e05.png)
+カレンダー<br/>
+![カレンダー](https://i.gyazo.com/fa5d1280215bc247650c33ccdff79e05.png)
+
+予定記入＜<br/>
+![予定](https://i.gyazo.com/25ddfff022b2270e3f27ee64ba33eaa4.png)
 
 ## incomesテーブル
 
