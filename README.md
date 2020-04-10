@@ -33,7 +33,7 @@
 月次一覧表示<br/>
 ![月次一覧](https://i.gyazo.com/d7e3e44819610a12c7450eeb7077aa58.jpg)
 年間グラフ表示<br/>
-![年間グラフ](ダウンロード.png)
+![年間グラフ](FireShot Capture 003 - MyKakeibo - localhost.png)
 
 # カレンダーの手順
 手順：ユーザー登録orログイン→カレンダー → New Meeting → 予定登録
