@@ -56,6 +56,11 @@ Eメール: bbbb@gmail.com <br/>
 カレンダー更新後<br/>
 ![カレンダー更新後](https://i.gyazo.com/645ed0fbebd5a811898cb9d69a335f85.png)
 
+# 工夫したこと
+ユーザーが使いやすいようになるべくシンプルにしました。<br/>
+また、
+
+# DB設計
 ## incomesテーブル
 
 |Column|Type|Options|
