@@ -18,7 +18,7 @@
 
 
 $(function() {
-  $('.content__image').slick({
+  $('.image').slick({
     arrows: false,
     autoplay: true,
     speed: 5000,
