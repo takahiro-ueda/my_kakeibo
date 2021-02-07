@@ -2,7 +2,7 @@ class IncomeValuesController < ApplicationController
 
 	def index
 		@incomes = Income.order(created_at: :asc)
-		@income_values = IncomeValue.order("year_month: :asc")
+		@income_values = IncomeValue.order(year_month: :asc)
 	end
 
 	def show
